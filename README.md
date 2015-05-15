@@ -12,3 +12,10 @@ To run
 I'm sure you have Python installed so just run...
 
     python -m SimpleHTTPServer 9000
+
+Links on Canvas and Handwriting recognition
+---
+* http://perfectionkills.com/exploring-canvas-drawing-techniques/
+* http://home.comcast.net/~urbanjost/canvas/graffiti/graffiti_text.html
+* http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/#demo-colors
+* http://doc.myscript.com/MyScriptCloud/2.3.0/index.html
