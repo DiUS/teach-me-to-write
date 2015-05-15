@@ -5,7 +5,7 @@ A simple web application that uses handwriting recognition to teach people to wr
 
 Supported features
 ---
-At the moment only upper case letters are supported. But I believe my code is a bit hacky and the character generator is actually providing numbers as well so.... have fun!
+At the moment only numbers and upper case letters are supported. But I believe my code is a bit hacky and the character generator is providing symbols from time to time as well so.... have fun!
 
 To run
 ---

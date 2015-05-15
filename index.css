@@ -35,7 +35,7 @@ main .result {
 }
 
 main .result p {
-    font-size: 40em;
+    font-size: 20vh;
     margin: 0;
 }
 
