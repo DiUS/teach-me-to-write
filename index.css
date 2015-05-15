@@ -1,0 +1,64 @@
+html, body {
+    font-size: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: whiteSmoke;
+    color: #222222;
+    font-size: 10px;
+}
+
+h1 small {
+    color: #666666;
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 114.0em;
+    min-height: 100%;
+    padding: 1em 3em 0;
+}
+
+main canvas, main .result {
+    border: 2px solid #666;
+}
+
+main canvas {
+    float: left;
+}
+
+main .result {
+    float: right;
+    text-align: center;
+}
+
+main .result p {
+    font-size: 40em;
+    margin: 0;
+}
+
+main .toolbox {
+    margin: 1em 0;
+}
+
+main .toolbox .loading {
+    display: none;
+}
+
+main .toolbox button {
+    font-size: 1.6em;
+    margin: 0 1em;
+    padding: 0.6em;
+}
+
+main .toolbox button:first-child {
+    margin-left: 0;
+}
+
+main .messages {
+    color: #ff0000;
+    font-size: 1.4em;
+    font-weight: 700;
+}

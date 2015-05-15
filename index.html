@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Draw my character</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            CharDrawing.init();
+        });
+    </script>
+
+</head>
+<body>
+    <main>
+        <h1>
+            Draw my character<br/>
+            <small>Repeat what the app tells ya, like a good <del>monkey</del> kid</small>
+        </h1>
+        <canvas id="mycanvas"></canvas>
+        <div class="result">
+            <p></p>
+        </div>
+        <br clear="all" />
+        <div class="toolbox">
+            <button class="check">Check what I've drawn!</button>
+            <button class="new-challenge">New challenge</button>
+            <span class="loading">Checking...</span>
+            <button class="clear" style="float: right">Clear my drawing</button>
+        </div>
+        <br clear="all" />
+        <div class="messages">
+        </div>
+    </main>
+
+</body>
+</html>
