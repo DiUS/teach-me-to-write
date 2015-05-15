@@ -71,7 +71,7 @@ CharDrawing.init = function () {
   function generateCharacter () {
     // 48 - 57 (numbers)
     // 65 - 90 ([A-Z])
-    var asciiCode = Math.floor(Math.random() * (90 - 47) + 47);
+    var asciiCode = Math.floor(Math.random() * (90 - 48) + 48);
     if (asciiCode > 57 && asciiCode < 65) {
       return generateCharacter();
     }
@@ -87,6 +87,7 @@ CharDrawing.init = function () {
 
     $('canvas').attr('width', mainW / 2).attr('height', mainH);
     $('.result').css({width: mainW / 2, height: mainH});
+    $('.result p').css({lineHeight: mainH + 'px'});
 
     updateChallenge();
   }

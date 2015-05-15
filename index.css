@@ -35,8 +35,10 @@ main .result {
 }
 
 main .result p {
-    font-size: 20vh;
+    font-family: 'courier';
+    font-size: 50vh;
     margin: 0;
+    width: 100%;
 }
 
 main .toolbox {
