@@ -19,3 +19,7 @@ Links on Canvas and Handwriting recognition
 * http://home.comcast.net/~urbanjost/canvas/graffiti/graffiti_text.html
 * http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/#demo-colors
 * http://doc.myscript.com/MyScriptCloud/2.3.0/index.html
+
+And the remote debugging instructions for Chrome...
+
+* https://developer.chrome.com/devtools/docs/remote-debugging
